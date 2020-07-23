@@ -1,0 +1,6 @@
+/_site/
+/src/dist/
+/node_modules/
+/temp/
+
+.DS_Store

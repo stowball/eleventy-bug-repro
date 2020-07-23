@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html
+  lang="en"
+>
+<head>
+  <meta charset="UTF-8" />
+  <title>Eleventy templateFormats</title>
+  <link rel="stylesheet" href="/dist/main.css?<%- Date.now() %>" />
+</head>
+<body>
+
+<%- content -%>
+
+<script src="/dist/main.js?<%- Date.now() %>"></script>
+</body>
+</html>
